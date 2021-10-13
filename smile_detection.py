@@ -15,6 +15,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')          #loading the
 
 
 #defining a func to do the detections
+#iam trying to get pull request
 def detect(gray, frame):
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)             #applying detectMultiScale method to detect one or several faces in the image
     
